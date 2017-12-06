@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    background-color: purple;
+    color: #FFD700;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: x-large;
+}
+
+input[type=submit] {
+    background-color: #ffd700;
+    border: none;
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin: 2px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}
+
+input[type=text] {
+    padding: 4px 5px;
+    border-color: #ffd700;
+    background-color: #FFF099;
+    width: 180px;
+}

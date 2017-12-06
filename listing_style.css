@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    background-color: purple;
+    color: #FFD700;
+}
+
+#share {
+    width: 200px;
+}
+
+.delete {
+    position: absolute;
+    right: 3%;
+    top: 9px;
+}
+
+input[type=submit] {
+    background-color: #ffd700;
+    border: none;
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin: 2px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 4px 5px;
+    border-color: #ffd700;
+    background-color: #FFF099;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+form {
+    display: inline;
+}
